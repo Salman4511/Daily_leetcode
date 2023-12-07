@@ -1,12 +1,11 @@
-/**
- * Definition for a binary tree node.
- * class TreeNode {
- *   int val;
- *   TreeNode? left;
- *   TreeNode? right;
- *   TreeNode([this.val = 0, this.left, this.right]);
- * }
- */
+
+  class TreeNode {
+    int val;
+    TreeNode? left;
+    TreeNode? right;
+    TreeNode([this.val = 0, this.left, this.right]);
+  }
+ 
 class Solution {
   TreeNode? sortedArrayToBST(List<int> nums) {
     if (nums.isEmpty) return null;
